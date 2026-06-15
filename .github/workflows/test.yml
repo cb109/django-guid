@@ -27,8 +27,6 @@ jobs:
         # For Django/Python compatibility see e.g.:
         # https://docs.djangoproject.com/en/dev/faq/install/#what-python-version-can-i-use-with-django
         # https://docs.djangoproject.com/en/6.0/releases/6.0/#python-compatibility
-        django-version: ["4.2", "5.0", "5.1", "5.2", "6.0"]
-        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12", "3.13", "3.14"]
         include:
           # Django 4.2 supports Python 3.8, 3.9, 3.10, 3.11, 3.12
           - django-version: "4.2"
